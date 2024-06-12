@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Todo List</h1>
-        <form id="form">
-            <input type="text" id="input" placeholder="Add a new todo">
-            <button type="submit">Add</button>
-        </form>
-        <ul id="todos"></ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2>To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <span onclick="newElement()" class="addBtn">Add</span>
     </div>
-    <script src="script.js"></script>
-</body>
+    <ul id="myUL"></ul>
+    <script src="index.js"></script>
+  </body>
 </html>
