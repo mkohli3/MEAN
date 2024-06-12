@@ -17,6 +17,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    color: red;
 }
 
 h1 {
@@ -38,7 +39,7 @@ input[type="text"] {
 
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: blue;
     border: none;
     border-radius: 5px;
     color: white;
@@ -46,7 +47,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #218838;
+    background-color: blue;
 }
 
 ul {
