@@ -17,7 +17,7 @@ function getTodo(url) {
 }
 
 function renderList(data) {
-  const ul = document.getElementById("myUL");
+  const ul = document.getElementById("todos");
   console.log(data);
   data.forEach((item) => {
     const li = document.createElement("li");
@@ -39,7 +39,7 @@ function newElement() {
     return;
   }
 
-  let ul = document.getElementById("myUL");
+  let ul = document.getElementById("todos");
   let li = document.createElement("li");
   li.textContent = inputValue;
 
